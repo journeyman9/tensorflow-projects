@@ -1,0 +1,20 @@
+file: 67_perc_expert_label.csv
+withhold: 0.2
+batch_size: 32
+epochs: 2
+learning_rate: 0.0001
+neurons:
+  - 256
+  - 256
+features:
+  - s_1
+  - s_2
+  - s_3
+  - s_4
+  - a_1
+  - a_2
+labels:
+  - s_1_
+  - s_2_
+  - s_3_
+  - s_4_
