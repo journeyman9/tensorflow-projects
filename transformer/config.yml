@@ -1,0 +1,17 @@
+file: spa.txt
+num_samples: 80000
+vocab_size: 16384
+d_model: 256
+n_layers: 3
+n_heads: 4
+dropout_rate: 0.1
+batch_size: 64
+epochs: 10
+lr_warmup_steps: 4000
+seq_len: 15
+neurons: 1024
+withhold: 0.2
+features:
+  - input
+labels:
+  - target
